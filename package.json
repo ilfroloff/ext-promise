@@ -1,0 +1,25 @@
+{
+    "name": "ext-promise",
+    "version": "0.0.1",
+    "description": "Extends native Promise by helpful methods",
+    "main": "index.js",
+    "keywords": [
+        "promise",
+        "helpful",
+        "util",
+        "helper"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/ilfroloff/ext-promise.git"
+    },
+    "author": "ilfroloff <ilfroloff@gmail.com> (https://twitter.com/ilfroloff)",
+    "scripts": {
+        "test": "mocha --check-leaks"
+    },
+    "devDependencies": {
+        "mocha": "2.4.x",
+        "should": "8.2.x"
+    },
+    "license": "MIT"
+}
